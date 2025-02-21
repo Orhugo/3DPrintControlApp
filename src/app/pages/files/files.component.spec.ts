@@ -9,8 +9,8 @@ describe('FilesComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ FilesComponent ],
-      imports: [IonicModule.forRoot()]
+      declarations: [FilesComponent],
+      imports: [IonicModule.forRoot()],
     }).compileComponents();
 
     fixture = TestBed.createComponent(FilesComponent);

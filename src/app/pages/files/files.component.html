@@ -1,3 +1,10 @@
-<p>
-  files works!
-</p>
+<ion-content>
+  <ion-list [inset]="true">
+    @for (file of files; track file.name) {
+      <ion-item [id]="'open-menu' + file.id">
+        <ion-label>{{ file.name }}</ion-label>
+        <app-context-menu [fileId]="file.id"></app-context-menu>
+      </ion-item>
+    }
+  </ion-list>
+</ion-content>

@@ -1,8 +1,8 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: '3DPrinterControlApp',
+  appId: 'com.hcalzado.dev',
+  appName: 'FluiddControlApp',
   webDir: 'www',
 };
 

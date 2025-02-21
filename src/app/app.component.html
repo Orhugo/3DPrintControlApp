@@ -1,4 +1,17 @@
 <ion-app>
-  <!--  <ion-router-outlet></ion-router-outlet>-->
-  <ion-nav [root]="component"></ion-nav>
+  <app-nav-menu></app-nav-menu>
+  <div class="ion-page" id="main-content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>Elegoo Neptune 4 Pro</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content>
+      <ion-router-outlet></ion-router-outlet>
+    </ion-content>
+  </div>
 </ion-app>
