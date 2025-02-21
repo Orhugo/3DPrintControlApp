@@ -1,0 +1,55 @@
+ion-button {
+  --color: white;
+  width: 10rem;
+  height: 3rem;
+}
+
+ion-icon {
+  font-size: 3rem;
+}
+
+.streaming-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.movement-arrow {
+  width: 4rem;
+  height: 4rem;
+}
+
+.items-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-size {
+  font-size: 1.5rem;
+}
+
+.gap-between-controls {
+  gap: 2rem;
+}
+
+.x-y-controls, .z-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.horizontal-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.center-label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}

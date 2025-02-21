@@ -1,0 +1,28 @@
+<ion-popover [trigger]="'open-menu' + fileId" trigger-action="click">
+  <ng-template>
+    <ion-content class="ion-padding">
+      <ion-list lines="none">
+        <ion-item>
+          <ion-button
+            size="default"
+            color="medium"
+            class="button-width"
+            (click)="printFile()">
+            <ion-label class="ion-padding-end">Print</ion-label>
+            <ion-icon name="print-outline"></ion-icon>
+          </ion-button>
+        </ion-item>
+        <ion-item>
+          <ion-button
+            size="default"
+            color="danger"
+            class="button-width"
+            (click)="deleteFile()">
+            <ion-label class="ion-padding-end">Delete</ion-label>
+            <ion-icon name="trash-outline"></ion-icon>
+          </ion-button>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ng-template>
+</ion-popover>
